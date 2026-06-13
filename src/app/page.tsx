@@ -48,7 +48,7 @@ function HeroSection() {
 
       {/* Content */}
       <div
-        className="relative z-10 w-full"
+        className="relative z-10 w-full mt-16"
         style={{ padding: "0 var(--container-px)" }}
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-end">
@@ -109,7 +109,7 @@ function HeroSection() {
               >
                 Jelajahi Koleksi
               </Link>
-              <Link
+              {/* <Link
                 href="/catalog?category=niche"
                 className="label px-8 py-4 transition-all duration-300"
                 style={{
@@ -120,14 +120,14 @@ function HeroSection() {
                 }}
               >
                 Niche Perfume
-              </Link>
+              </Link> */}
             </div>
 
             {/* Stats */}
             <div className="flex gap-10 mt-14 animate-fade-up delay-400">
               {[
                 { value: "200+", label: "Koleksi" },
-                { value: "50+", label: "Brand" },
+                // { value: "50+", label: "Brand" },
                 { value: "10K+", label: "Pelanggan" },
               ].map((stat) => (
                 <div key={stat.label}>
