@@ -17,9 +17,6 @@ Website penjualan parfum premium dibangun dengan Next.js 15, Prisma, NextAuth v5
 | Server | Nginx + PM2 + Ubuntu 22.04 |
 | CI/CD | GitHub Actions |
 
----
-
----
 
 ## Struktur Proyek
 
@@ -87,13 +84,3 @@ src/
 - [x] Backup terenkripsi GPG → Backblaze B2
 
 ---
-
-## Environment Variables
-
-Lihat `.env.example` untuk daftar lengkap semua variabel yang dibutuhkan.
-
----
-
-## License
-
-MIT
