@@ -74,13 +74,7 @@ src/
 - [x] Idempotency key untuk mencegah transaksi duplikat
 - [x] Stok dikembalikan otomatis jika payment gagal/expired
 - [x] Audit log semua transaksi penting
-- [x] MariaDB & Redis bind ke 127.0.0.1
 - [x] Password hash bcrypt cost factor 12
 - [x] JWT rotation setiap 24 jam
-- [x] UFW firewall (hanya port 80, 443, SSH custom)
-- [x] Fail2ban untuk brute-force protection
-- [x] Non-root user untuk menjalankan aplikasi
-- [x] SSH key-only authentication
-- [x] Backup terenkripsi GPG → Backblaze B2
 
 ---
