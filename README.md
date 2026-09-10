@@ -1,4 +1,4 @@
-# Maison Parfum — E-Commerce
+# Parfum — E-Commerce
 
 Website penjualan parfum premium dibangun dengan Next.js 15, Prisma, NextAuth v5, dan Midtrans.
 
